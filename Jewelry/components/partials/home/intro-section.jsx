@@ -88,9 +88,9 @@ function IntroSection( props ) {
                 </div>
             </div> */}
 
-            <div className="banner banner-fixed video-banner intro-slide3" style={ { backgroundColor: "#dddee0" } }>
+                <div className="banner banner-fixed video-banner intro-slide3" style={ { backgroundColor: "#dddee0" } }>
                 <figure>
-                    <video src={ '/videos/thumbnail.mp4' } width="1903" height="630" autoPlay={ true } muted loop></video>
+                    <video src={ '/videos/saphire.mp4' } width="1903" height="630" autoPlay={ true } muted loop></video>
                 </figure>
 
                 <div className="container">

@@ -18,7 +18,8 @@
             font-family: $font-family,
             letter-spacing:  -.025em,
             color: false,
-            background: #fff,
+            // background: #fff,
+            background: #0b0b0b,
             // Link's color
             _link-color: false,
             // Link's color when it is hover or active
@@ -61,7 +62,8 @@
 				padding-top: 2.7rem,
                 padding-bottom: 2.7rem,
 				color: #222,
-				background: #fff,
+				// background: #fff,
+                background: #070707,
 				border-bottom: false,
                 font-family: false,
 				font-size: 1.2rem,
@@ -93,7 +95,8 @@
 				padding-top: false,
 				padding-bottom: 1.5rem,
 				color: $dark-color,
-				background: #fff,
+				// background: #fff,
+                background: #080808,
 				border-top: false,
 				border-bottom: false,
                 font-family: false,
@@ -423,7 +426,8 @@
         min-width: 40px;
         padding: 1.1rem 1.5rem;
         border: 0;
-        background-color: #eee;
+        // background-color: #eee;
+        background-color: #050505;
         font-size: 1.3rem;
         letter-spacing: inherit;
     }

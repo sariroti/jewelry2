@@ -30,7 +30,7 @@ export default function Header( props ) {
             <div className="header-top">
                 <div className="container">
                     <div className="header-left">
-                        <p className="welcome-msg">Welcome to Riode store message or remove it!</p>
+                        <p className="welcome-msg">Welcome to Jewelery store</p>
                     </div>
                     <div className="header-right">
                         <div className="dropdown">

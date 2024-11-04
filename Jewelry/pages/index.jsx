@@ -31,13 +31,13 @@ function HomePage() {
     return (
         <div className="main home">
             <Helmet>
-                <title>Riode React eCommerce Template - Home</title>
+                <title>Jewelery Template - Home</title>
             </Helmet>
 
 
-            <h1 className="d-none">Riode React eCommerce Template - Home</h1>
+            <h1 className="d-none">Jewelery Template - Home</h1>
 
-            <div className="page-content">
+            <div className="page-content" style= {{ backgroundColor:'black'}} >
                 <div className="intro-section">
                     <IntroSection />
 
@@ -49,7 +49,7 @@ function HomePage() {
                 <BestCollection products={ bestSelling } loading={ loading } />
 
                 <DealSection />
-
+{/* 
                 <FeaturedCollection products={ featured } loading={ loading } />
 
                 <CtaSection />
@@ -58,7 +58,7 @@ function HomePage() {
 
                 <BrandSection />
 
-                <SmallCollection featured={ featured } latest={ latest } bestSelling={ bestSelling } onSale={ onSale } loading={ loading } />
+                <SmallCollection featured={ featured } latest={ latest } bestSelling={ bestSelling } onSale={ onSale } loading={ loading } /> */}
             </div>
 
             <NewsletterModal />
