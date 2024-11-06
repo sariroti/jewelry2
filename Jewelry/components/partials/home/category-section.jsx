@@ -19,7 +19,7 @@ function CategorySection () {
                                 <ALink href={ { pathname: '/shop', query: { category: 'for-men-s' } } }>
                                     <figure className="category-media">
                                         <LazyLoadImage
-                                            src="./images/jewelry/beautiful-halo-diamond-stud-earrings-with-reflecti-2024-09-19-14-26-48-utc.jpg"
+                                            src="./images/jewelry/diamond.png"
                                             alt="Intro Slider"
                                             effect="opacity; transform"
                                             width={ 280 }
@@ -39,7 +39,7 @@ function CategorySection () {
                                 <ALink href={ { pathname: '/shop', query: { category: 'accessories' } } }>
                                     <figure className="category-media">
                                         <LazyLoadImage
-                                            src="../images/jewelry/blue-opal-sapphire-fashion-drop-earrings-with-diam-2024-09-22-00-44-26-utc.jpg"
+                                            src="../images/jewelry/earing.png"
                                             alt="Intro Slider"
                                             effect="opacity; transform"
                                             width={ 280 }
@@ -59,7 +59,7 @@ function CategorySection () {
                                 <ALink href={ { pathname: '/shop', query: { category: 'fashionable-women-s' } } }>
                                     <figure className="category-media">
                                         <LazyLoadImage
-                                            src="./images/jewelry/lapis-lazuli-sapphire-blue-earrings-pair-2024-09-22-09-44-10-utc.jpg"
+                                            src="./images/jewelry/sapphire.png"
                                             alt="Intro Slider"
                                             effect="opacity; transform"
                                             width={ 280 }
@@ -79,7 +79,7 @@ function CategorySection () {
                                 <ALink href={ { pathname: '/shop', query: { category: 'cosmetic' } } }>
                                     <figure className="category-media">
                                         <LazyLoadImage
-                                            src="./images/jewelry/rose-gold-and-white-gold-diamond-earrings-2024-09-23-02-27-46-utc.jpg"
+                                            src="./images/jewelry/diamondearring.png"
                                             alt="Intro Slider"
                                             effect="opacity; transform"
                                             width={ 280 }

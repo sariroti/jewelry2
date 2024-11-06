@@ -14,6 +14,7 @@ import ServiceBox from '~/components/partials/home/service-section';
 import CategorySection from '~/components/partials/home/category-section';
 import BestCollection from '~/components/partials/home/best-collection';
 import DealSection from '~/components/partials/home/deal-section';
+import BannerSection from '~/components/partials/home/banner-section';
 import FeaturedCollection from '~/components/partials/home/featured-collection';
 import CtaSection from '~/components/partials/home/cta-section';
 import BrandSection from '~/components/partials/home/brand-section';
@@ -49,6 +50,9 @@ function HomePage() {
                 <BestCollection products={ bestSelling } loading={ loading } />
 
                 <DealSection />
+
+                <BannerSection />
+             
 {/* 
                 <FeaturedCollection products={ featured } loading={ loading } />
 
