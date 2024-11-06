@@ -290,3 +290,52 @@
         }
     }
 }
+
+.header {
+    .welcome-msg {
+        padding: 1.1rem 0 1.2rem;
+    }
+
+    .divider {
+        background-color: #fff;
+        opacity: .25;
+        margin-right: 2rem;
+    }
+}
+
+.header-top {
+    a:hover {
+        color: #fff;
+    }
+}
+
+
+.header-middle {
+    .header-left, .header-right {
+        flex: 1;
+    }
+
+    .header-left {
+        justify-content: flex-end;
+    }
+
+    .header-right {
+        justify-content: flex-end;
+    }
+
+    .icon-box-icon {
+        margin-right: .7rem;
+    }
+    
+    .mobile-menu-toggle { 
+        color: #fff; 
+    }
+
+    .wishlist {
+        margin-right: 1.5rem;
+    }
+
+    .label-block .cart-name {
+        letter-spacing: -.3px;
+    }
+}

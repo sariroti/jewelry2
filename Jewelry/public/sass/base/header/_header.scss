@@ -266,6 +266,14 @@
     }
 }
 
+.header-left {
+    margin-right: auto;
+    a {
+        display: flex;
+        align-items: left;
+    }
+}
+
 .header-top {
     @include print_css(header, top);
     .header-right {
