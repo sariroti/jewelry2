@@ -95,7 +95,7 @@ export default function Header( props ) {
 
             <div className="header-middle ">
                 <div className="container">
-                    <div className="header-right">
+                    <div className="header-left">
                         {/* <p className="welcome-msg">Welcome to Jewelery</p> */}
                         <ALink href="#" className="mobile-menu-toggle" onClick={showMobileMenu}>
                             <i className="d-icon-bars2"></i>
