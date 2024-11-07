@@ -44,12 +44,11 @@ function HomePage() {
 
                     <ServiceBox />
                 </div>
-
                 <CategorySection />
 
                 <BestCollection products={ bestSelling } loading={ loading } />
 
-                <DealSection />
+                {/* <DealSection /> */}
 
                 <BannerSection />
              
