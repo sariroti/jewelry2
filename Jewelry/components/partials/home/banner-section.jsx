@@ -39,54 +39,62 @@ export default function BannerSection() {
                     </div> */}
                     <div className="col-lg-6 mb-3">
                         <div className="banner banner-lg category-box">
+                        <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
-                                    src="./images/jewelry/diamond.png"
+                                    src="./images/jewelry/bross.png"
                                     alt="banner"
                                     effect="opacity"
                                     width="780"
                                     height="457"
                                 />
                             </figure>
+                        </ALink>
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
                         <div className="banner banner-lg category-box">
+                        <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
-                                    src="./images/jewelry/earing.png"
+                                    src="./images/jewelry/cincin.png"
                                     alt="banner"
                                     effect="opacity"
                                     width="780"
                                     height="457"
                                 />
                             </figure>
+                        </ALink>
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
                         <div className="banner banner-lg category-box">
+                        <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
-                                    src="./images/jewelry/diamond.png"
+                                    src="./images/jewelry/kalung.png"
                                     alt="banner"
                                     effect="opacity"
                                     width="780"
                                     height="457"
                                 />
                             </figure>
+                        </ALink>
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
                         <div className="banner banner-lg category-box">
+                        <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
-                                    src="./images/jewelry/earing.png"
+                                    src="./images/jewelry/anting.png"
                                     alt="banner"
                                     effect="opacity"
                                     width="780"
                                     height="457"
                                 />
                             </figure>
+                        </ALink>
                         </div>
                     </div>
                 </div>

@@ -13,12 +13,11 @@ function CategorySection () {
                 <div className="container">
                     {/* <h2 className="title title-center mb-5" style={{ backgroundColor: "#dddee0" } }>Best Sellers</h2> */}
                     <h2 className='blinktext'>Best Sellers</h2>
-                    <h2 className="title title-center mb-5">Best Seller</h2>
-
+                   
                     <div className="row">
                         <div className="col-xs-6 col-lg-3 mb-4">
                             <div className="category category-default1 category-absolute banner-radius overlay-zoom category-box">
-                                <ALink href={ { pathname: '/shop', query: { category: 'for-men-s' } } }>
+                                <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                                     <figure className="category-media">
                                         <LazyLoadImage
                                             src="./images/jewelry/diamond.png"
@@ -38,7 +37,7 @@ function CategorySection () {
 
                         <div className="col-xs-6 col-lg-3 mb-4">
                             <div className="category category-default1 category-absolute banner-radius overlay-zoom category-box">
-                                <ALink href={ { pathname: '/shop', query: { category: 'accessories' } } }>
+                                <ALink href={ { pathname: '/shop/grid/5cols/' } }>
                                     <figure className="category-media">
                                         <LazyLoadImage
                                             src="../images/jewelry/earing.png"
@@ -58,7 +57,7 @@ function CategorySection () {
 
                         <div className="col-xs-6 col-lg-3 mb-4">
                             <div className="category category-default1 category-absolute banner-radius overlay-zoom category-box">
-                                <ALink href={ { pathname: '/shop', query: { category: 'fashionable-women-s' } } }>
+                                <ALink href={ { pathname: '/shop/grid/5cols/' } }>  
                                     <figure className="category-media">
                                         <LazyLoadImage
                                             src="./images/jewelry/sapphire.png"
@@ -78,7 +77,7 @@ function CategorySection () {
 
                         <div className="col-xs-6 col-lg-3 mb-4">
                             <div className="category category-default1 category-absolute banner-radius overlay-zoom category-box">
-                                <ALink href={ { pathname: '/shop', query: { category: 'cosmetic' } } }>
+                                <ALink href={ { pathname: '/shop/grid/5cols/' } }>
                                     <figure className="category-media">
                                         <LazyLoadImage
                                             src="./images/jewelry/diamondearring.png"

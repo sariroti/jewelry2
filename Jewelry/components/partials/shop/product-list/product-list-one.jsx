@@ -15,7 +15,17 @@ function ProductListOne( props ) {
     const router = useRouter();
     const query = router.query;
     const [ getProducts, { data, loading, error } ] = useLazyQuery( GET_PRODUCTS );
-    const products = data && data.products.data;
+    // const products = data && data.products.data;
+    const products = [ { pictures:[{url:'/images/jewelry/diamond.png'}], variants:[], price:[0,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/earing.png'}], variants:[], price:[0,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/anting.png'}], variants:[], price:[0,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/bross.png'}], variants:[], price:[0,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/cincin.png'}], variants:[], price:[0,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/kalung.png'}], variants:[], price:[0,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/sapphire.png'}], variants:[], price:[0,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/diamond.png'}], variants:[], price:[0,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/diamond.png'}], variants:[], price:[0,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/diamond.png'}], variants:[], price:[0,0], ratings:5}]
     const gridClasses = {
         3: "cols-2 cols-sm-3",
         4: "cols-2 cols-sm-3 cols-md-4",
