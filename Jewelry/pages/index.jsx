@@ -47,9 +47,9 @@ function HomePage() {
 
                 <CategorySection />
 
-                <BestCollection products={ bestSelling } loading={ loading } />
+                {/* <BestCollection products={ bestSelling } loading={ loading } /> */}
 
-                <DealSection />
+                {/* <DealSection /> */}
 
                 <BannerSection />
              

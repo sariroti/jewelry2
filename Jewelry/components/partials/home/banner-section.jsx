@@ -38,7 +38,7 @@ export default function BannerSection() {
                         </div>
                     </div> */}
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg">
+                        <div className="banner banner-lg category-box">
                             <figure>
                                 <LazyLoadImage
                                     src="./images/jewelry/diamond.png"
@@ -51,7 +51,7 @@ export default function BannerSection() {
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg">
+                        <div className="banner banner-lg category-box">
                             <figure>
                                 <LazyLoadImage
                                     src="./images/jewelry/earing.png"
@@ -64,7 +64,7 @@ export default function BannerSection() {
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg">
+                        <div className="banner banner-lg category-box">
                             <figure>
                                 <LazyLoadImage
                                     src="./images/jewelry/diamond.png"
@@ -77,7 +77,7 @@ export default function BannerSection() {
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg">
+                        <div className="banner banner-lg category-box">
                             <figure>
                                 <LazyLoadImage
                                     src="./images/jewelry/earing.png"
