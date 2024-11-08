@@ -11,6 +11,8 @@ function CategorySection () {
         <Reveal keyframes={ fadeIn } delay={ 300 } duration={ 1200 } triggerOnce>
             <section className="pt-10 mt-7">
                 <div className="container">
+                    {/* <h2 className="title title-center mb-5" style={{ backgroundColor: "#dddee0" } }>Best Sellers</h2> */}
+                    <h2 className='blinktext'>Best Sellers</h2>
                     <h2 className="title title-center mb-5">Best Seller</h2>
 
                     <div className="row">

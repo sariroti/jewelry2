@@ -14,7 +14,7 @@ function BestCollection ( props ) {
     return (
         <Reveal keyframes={ fadeIn } delay={ 300 } duration={ 1200 } triggerOnce>
             <section className="product-wrapper container mt-6 mt-md-10 pt-4 pb-8">
-                <h2 className="title title-center mb-5">Best Sellers</h2>
+                <h2 className="title title-center mb-5" style={{ backgroundColor:"white"}}>Categories</h2>
 
                 {
                     loading ?
