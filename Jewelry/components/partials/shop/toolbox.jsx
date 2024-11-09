@@ -83,12 +83,12 @@ export default function ToolBox( props ) {
     }
 
     return (
-        <nav className={ `toolbox sticky-toolbox sticky-content fix-top ${ type === "horizontal" ? 'toolbox-horizontal' : '' }` }>
+        <nav className={ `toolbox sticky-toolbox sticky-content fix-top ${ type === "horizontal" ? 'toolbox-horizontal' : '' }` } style={ {  backgroundColor: "#070707" } }>
             {
                 type === "horizontal" ? <SidebarFilterThree /> : ''
             }
             <div className="toolbox-left">
-                {
+                {/* {
                     type === "left" || type === "off-canvas" || type === "navigation" || type === "horizontal" ?
                         <ALink href="#" className={ `toolbox-item left-sidebar-toggle btn btn-outline btn-primary btn-rounded ${ type === "navigation" ? "btn-icon-left btn-sm" : "btn-sm btn-icon-right" } ${ type === "off-canvas" || type === "navigation" ? '' : "d-lg-none" }` } onClick={ showSidebar }>
                             {
@@ -99,13 +99,13 @@ export default function ToolBox( props ) {
                                 type === "navigation" ? '' : <i className="d-icon-arrow-right"></i>
                             }
                         </ALink> : ''
-                }
+                } */}
 
                 <div className={ `toolbox-item toolbox-sort ${ type === "boxed" || type === "banner" ? "select-box text-dark" : "select-menu" }` }>
                     {
                         type === "boxed" || type === "banner" ? <label>Sort By :</label> : ''
                     }
-                    <select name="orderby" className="form-control" defaultValue={ query.sortby ? query.sortby : 'default' } onChange={ e => onChangeAttri( e, 'sortby' ) }>
+                    <select name="orderby" className="form-control" style={{backgroundColor:'#353530', color:'#fff'}} defaultValue={ query.sortby ? query.sortby : 'default' } onChange={ e => onChangeAttri( e, 'sortby' ) } >
                         <option value="default">Default</option>
                         <option value="popularity">Most Popular</option>
                         <option value="rating">Average rating</option>
@@ -119,7 +119,7 @@ export default function ToolBox( props ) {
             <div className="toolbox-right">
                 <div className="toolbox-item toolbox-show select-box text-dark">
                     <label>Show :</label>
-                    <select name="count" className="form-control" defaultValue={ perPage } onChange={ e => onChangeAttri( e, 'per_page' ) }>
+                    <select name="count" className="form-control" style={{backgroundColor:'#353530', color:'#fff'}} defaultValue={ perPage } onChange={ e => onChangeAttri( e, 'per_page' ) }>
                         <option value="12">12</option>
                         <option value="24">24</option>
                         <option value="36">36</option>

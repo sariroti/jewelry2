@@ -59,7 +59,7 @@ function Layout( { children, closeQuickview } ) {
 
     return (
         <>
-            <div className="page-wrapper">
+            <div className="page-wrapper" style={{backgroundColor:'#070707'}}>
                 <Header />
 
                 { children }

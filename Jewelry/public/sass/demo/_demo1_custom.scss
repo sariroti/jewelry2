@@ -221,7 +221,7 @@
         overflow: hidden;
 
         img {
-            min-height: 45.7rem;
+            min-height: 75rem;
             object-fit: cover;
         }
 
@@ -355,4 +355,29 @@
 
 .category-box:hover{
     border-color:#3467ef;
+}
+
+.section-gray {
+    background-color: #353530 !important;
+}
+
+.border-radius-25{
+    border-radius: 25px !important;
+}
+
+.border-radius-10{
+    border-radius: 10px !important;
+}
+
+.background-white{
+    background-color: #fff !important;
+}
+
+.color-white{
+    color:#fff !important;
+}
+
+.max-height-220{
+    max-height: 220px !important;
+    min-height: 220px !important;
 }

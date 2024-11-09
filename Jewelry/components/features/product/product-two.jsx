@@ -51,6 +51,7 @@ function ProductTwo( props ) {
                         effect="opacity"
                         width="300"
                         height="338"
+                        className='border-radius-10 max-height-220'
                     />
 
                     {
@@ -122,17 +123,17 @@ function ProductTwo( props ) {
                     <ALink href={ `/product/default/${ product.slug }` }>{ product.name }</ALink>
                 </h3>
 
-                <div className="product-price">
+                <div className="product-price color-white">
                     {
                         product.price[ 0 ] !== product.price[ 1 ] ?
                             product.variants.length === 0 || ( product.variants.length > 0 && !product.variants[ 0 ].price ) ?
                                 <>
-                                    <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>
-                                    <del className="old-price">${ toDecimal( product.price[ 1 ] ) }</del>
+                                    <ins className="new-price">IDR{ toDecimal( product.price[ 0 ] ) }</ins>
+                                    {/* <del className="old-price">IDR{ toDecimal( product.price[ 1 ] ) }</del> */}
                                 </>
                                 :
-                                < del className="new-price">${ toDecimal( product.price[ 0 ] ) } – ${ toDecimal( product.price[ 1 ] ) }</del>
-                            : <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>
+                                < del className="new-price">IDR{ toDecimal( product.price[ 0 ] ) } – ${ toDecimal( product.price[ 1 ] ) }</del>
+                            : <ins className="new-price">IDR{ toDecimal( product.price[ 0 ] ) }</ins>
                     }
                 </div>
 

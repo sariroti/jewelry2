@@ -6,7 +6,7 @@ import ALink from '~/components/features/custom-link';
 
 export default function BannerSection() {
     return (
-        <section className="banner-section pt-8 pb-8 mt-4 pt-lg-10 pb-lg-10">
+        <section className="banner-section pt-8 pb-8 mt-4 pt-lg-10 pb-lg-10 section-gray">
             <div className="container">
                 <div className="row">
                     {/* <div className="col-lg-4 mb-3">
@@ -38,7 +38,7 @@ export default function BannerSection() {
                         </div>
                     </div> */}
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg category-box">
+                        <div className="banner banner-lg border-radius-25">
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
@@ -53,7 +53,7 @@ export default function BannerSection() {
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg category-box">
+                        <div className="banner banner-lg border-radius-25">
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
@@ -68,7 +68,7 @@ export default function BannerSection() {
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg category-box">
+                        <div className="banner banner-lg border-radius-25">
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
@@ -83,7 +83,7 @@ export default function BannerSection() {
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg category-box">
+                        <div className="banner banner-lg border-radius-25">
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
