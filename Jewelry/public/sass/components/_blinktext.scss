@@ -1,14 +1,18 @@
 .blinktext {
-    margin-top :250px;
-    font-size: 4em;
-    font-family: "Helvetica Neue", sans-serif;
-    text-transform: uppercase;
+    margin-top :0px;
+    font-size: 6em;
+   //  font-family: "Helvetica Neue", sans-serif;
+   //font-family: "Pacifico";
+   font-family: "Franziska, Georgia, Cambria";
+   font-style: inherit;
+   text-transform: uppercase;
     letter-spacing: 10px;
     text-align: center;
     //justify-content: flex-end;
     /* color: white; */
     outline: none;
-    -webkit-box-reflect: below -20px linear-gradient(to bottom, #0000, #0000006c);
+    //-webkit-box-reflect: below -30px linear-gradient(to bottom, #0000, #0000006c);
+    //-webkit-box-reflect: below -10px linear-gradient(to bottom, rgb(0 0 0 / 0%), rgb(0 0 0 / 20%));
     animation: textBlink 3s infinite alternate;
  }
 

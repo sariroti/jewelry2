@@ -9,14 +9,14 @@ import { fadeIn } from '~/utils/data/keyframes';
 function CategorySection () {
     return (
         <Reveal keyframes={ fadeIn } delay={ 300 } duration={ 1200 } triggerOnce>
-            <section className="pt-10 mt-7">
+            <section className=" mt-7">
                 <div className="container">
                     {/* <h2 className="title title-center mb-5" style={{ backgroundColor: "#dddee0" } }>Best Sellers</h2> */}
                     <h2 className='blinktext'>Best Sellers</h2>
                    
                     <div className="row">
                         <div className="col-xs-6 col-lg-3 mb-4">
-                            <div className="category category-default1 category-absolute banner-radius overlay-zoom category-box">
+                            <div className="category category-default1 category-absolute  overlay-zoom bestseller-box">
                                 <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                                     <figure className="category-media">
                                         <LazyLoadImage
@@ -36,7 +36,7 @@ function CategorySection () {
                         </div>
 
                         <div className="col-xs-6 col-lg-3 mb-4">
-                            <div className="category category-default1 category-absolute banner-radius overlay-zoom category-box">
+                            <div className="category category-default1 category-absolute banner-radius overlay-zoom bestseller-box">
                                 <ALink href={ { pathname: '/shop/grid/5cols/' } }>
                                     <figure className="category-media">
                                         <LazyLoadImage
@@ -56,7 +56,7 @@ function CategorySection () {
                         </div>
 
                         <div className="col-xs-6 col-lg-3 mb-4">
-                            <div className="category category-default1 category-absolute banner-radius overlay-zoom category-box">
+                            <div className="category category-default1 category-absolute banner-radius overlay-zoom bestseller-box">
                                 <ALink href={ { pathname: '/shop/grid/5cols/' } }>  
                                     <figure className="category-media">
                                         <LazyLoadImage
@@ -76,7 +76,7 @@ function CategorySection () {
                         </div>
 
                         <div className="col-xs-6 col-lg-3 mb-4">
-                            <div className="category category-default1 category-absolute banner-radius overlay-zoom category-box">
+                            <div className="category category-default1 category-absolute banner-radius overlay-zoom bestseller-box">
                                 <ALink href={ { pathname: '/shop/grid/5cols/' } }>
                                     <figure className="category-media">
                                         <LazyLoadImage
