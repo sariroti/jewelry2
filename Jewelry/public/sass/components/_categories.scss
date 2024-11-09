@@ -30,9 +30,11 @@
         font: {
             size: 1.4rem;
             weight: 600;
+            font-family: Prata, serif;
         }
         line-height: 1.2;
-        color: inherit;
+        //color: inherit;
+        color:gold;
         text-transform: capitalize;
         a {
             color: inherit;
@@ -97,7 +99,7 @@
 }
 .category-default1 {
     .category-content {
-        background-color: #fff;
+        // background-color: #fff;
         color: #222;
         // transition: color .3s, background-color .3s;
     }

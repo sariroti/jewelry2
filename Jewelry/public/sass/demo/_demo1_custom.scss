@@ -351,8 +351,35 @@
     transition: border 0.3s;
     border-radius: 0.3rem;
     height: 100%;
+    box-shadow: 0px -25px 20px -20px rgba(249, 247, 247, 0.45),
+                0px 25px 20px -20px rgba(248, 246, 246, 0.45),
+                25px 0px 20px -20px rgba(249, 248, 248, 0.45);
 }
 
 .category-box:hover{
+    border-color:#3467ef;
+}
+
+
+.bestseller-box {
+    padding: 2.6rem 0.5rem;
+   // border: 1px solid #e1e1e1;
+    color: #222;
+    text-align: center;
+    -webkit-transition: border 0.3s;
+    -moz-transition: border 0.3s;
+    transition: border 0.3s;
+    border-radius: 2rem;
+    height: 100%;
+    box-shadow: 0px -25px 20px -20px rgb(233, 220, 149),
+                0px 25px 20px -20px rgb(233, 220, 149),
+                25px 0px 20px -20px rgb(233, 220, 149);
+    -webkit-box-reflect: below 2px -webkit-gradient(
+        linier right top, right bottom,
+        from (transparent),
+        to(rgba(255,255,255, 0.4)));
+}
+
+.bestseller-box:hover{
     border-color:#3467ef;
 }
