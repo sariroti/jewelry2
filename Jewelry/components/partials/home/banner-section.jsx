@@ -7,6 +7,7 @@ import ALink from '~/components/features/custom-link';
 export default function BannerSection() {
     return (
         <section className="banner-section pt-8 pb-8 mt-4 pt-lg-10 pb-lg-10 section-gray">
+            <h2 className="title title-center title-white mb-5">Category</h2>
             <div className="container">
                 <div className="row">
                     {/* <div className="col-lg-4 mb-3">
@@ -38,7 +39,7 @@ export default function BannerSection() {
                         </div>
                     </div> */}
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg border-radius-25">
+                        <div className="banner banner-lg border-radius-25 overlay-zoom" style={{backgroundColor:'black'}}>
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
@@ -50,10 +51,15 @@ export default function BannerSection() {
                                 />
                             </figure>
                         </ALink>
+                        <div className="banner-content y-50">
+                        <ALink href={ { pathname: '/shop/grid/5cols/' }}>
+                                <h3 className="banner-title text-white font-weight-bold ls-normal lg-1">Bross</h3>
+                             </ALink>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg border-radius-25">
+                        <div className="banner banner-lg border-radius-25 overlay-zoom" style={{backgroundColor:'black'}}>
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
@@ -65,10 +71,15 @@ export default function BannerSection() {
                                 />
                             </figure>
                         </ALink>
+                        <div className="banner-content y-50">
+                        <ALink href={ { pathname: '/shop/grid/5cols/' }}>
+                                <h3 className="banner-title text-white font-weight-bold ls-normal lg-1">Ring</h3>
+                             </ALink>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg border-radius-25">
+                        <div className="banner banner-lg border-radius-25 overlay-zoom" style={{backgroundColor:'black'}}>
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
@@ -80,10 +91,15 @@ export default function BannerSection() {
                                 />
                             </figure>
                         </ALink>
+                        <div className="banner-content y-50">
+                        <ALink href={ { pathname: '/shop/grid/5cols/' }}>
+                                <h3 className="banner-title text-white font-weight-bold ls-normal lg-1">Neklace</h3>
+                             </ALink>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-6 mb-3">
-                        <div className="banner banner-lg border-radius-25">
+                        <div className="banner banner-lg border-radius-25 overlay-zoom" style={{backgroundColor:'black'}}>
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
                                 <LazyLoadImage
@@ -95,6 +111,11 @@ export default function BannerSection() {
                                 />
                             </figure>
                         </ALink>
+                        <div className="banner-content y-50">
+                        <ALink href={ { pathname: '/shop/grid/5cols/' }}>
+                                <h3 className="banner-title text-white font-weight-bold ls-normal lg-1">Earring</h3>
+                             </ALink>
+                            </div>
                         </div>
                     </div>
                 </div>

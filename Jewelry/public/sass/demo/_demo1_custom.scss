@@ -409,3 +409,23 @@
     max-height: 220px !important;
     min-height: 220px !important;
 }
+
+.title-white{
+    font-size: 6em;
+    color:#fff;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 220px;
+    text-shadow: 0 10px 7px rgba(0,0,0,0.4),0 4px 40px #fff;
+    letter-spacing: -3px;
+}
+
+.title-white-small{
+    font-size: 6em;
+    color:#fff;
+    white-space: nowrap;
+    overflow: hidden;
+   
+    text-shadow: 0 10px 7px rgba(0,0,0,0.4),0 4px 40px #fff;
+    letter-spacing: -3px;
+}
