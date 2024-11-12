@@ -10,6 +10,9 @@ import { GET_HOME_DATA } from '../server/queries';
 // import Home Components
 import NewsletterModal from '~/components/features/modals/newsletter-modal';
 import IntroSection from '~/components/partials/home/intro-section';
+import IntroSection1 from '~/components/partials/home/intro-section1';
+import IntroSection2 from '~/components/partials/home/intro-section2';
+
 import ServiceBox from '~/components/partials/home/service-section';
 import CategorySection from '~/components/partials/home/category-section';
 import BestCollection from '~/components/partials/home/best-collection';
@@ -47,7 +50,9 @@ function HomePage() {
             <div className="page-content" style= {{ backgroundColor:'black'}} >
                 <div className="intro-section">
                     <IntroSection />
-
+                    {/* <IntroSection1 /> */}
+                    <IntroSection2 />
+                    
                     <ServiceBox />
                 </div>
                 <CategorySection />
