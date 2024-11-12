@@ -38,7 +38,7 @@ export default function BannerSection() {
                             </form>
                         </div>
                     </div> */}
-                    <div className="col-lg-6 mb-3">
+                    <div className="col-lg-12 mb-3">
                         <div className="banner banner-lg border-radius-25 overlay-zoom" style={{backgroundColor:'black'}}>
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
@@ -58,7 +58,7 @@ export default function BannerSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 mb-3">
+                    <div className="col-lg-12 mb-3">
                         <div className="banner banner-lg border-radius-25 overlay-zoom" style={{backgroundColor:'black'}}>
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
@@ -78,7 +78,7 @@ export default function BannerSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 mb-3">
+                    <div className="col-lg-12 mb-3">
                         <div className="banner banner-lg border-radius-25 overlay-zoom" style={{backgroundColor:'black'}}>
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>
@@ -98,7 +98,7 @@ export default function BannerSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 mb-3">
+                    <div className="col-lg-12 mb-3">
                         <div className="banner banner-lg border-radius-25 overlay-zoom" style={{backgroundColor:'black'}}>
                         <ALink href={ { pathname: '/shop/grid/5cols/' }}>
                             <figure>

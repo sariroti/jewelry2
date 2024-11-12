@@ -16,16 +16,16 @@ function ProductListOne( props ) {
     const query = router.query;
     const [ getProducts, { data, loading, error } ] = useLazyQuery( GET_PRODUCTS );
     // const products = data && data.products.data;
-    const products = [ { pictures:[{url:'/images/jewelry/kalung_brown.png'}], variants:[], price:[5000000,0], ratings:5},
-    { pictures:[{url:'/images/jewelry/anting_brown.png'}], variants:[], price:[5000000,0], ratings:5},
-    { pictures:[{url:'/images/jewelry/bross_brown.png'}], variants:[], price:[5000000,0], ratings:5},
-    { pictures:[{url:'/images/jewelry/cincin_brown.png'}], variants:[], price:[5000000,0], ratings:5},
-    { pictures:[{url:'/images/jewelry/diamond_brown.png'}], variants:[], price:[5000000,0], ratings:5},
-    { pictures:[{url:'/images/jewelry/earing_brown.png'}], variants:[], price:[5000000,0], ratings:5},
-    { pictures:[{url:'/images/jewelry/brown2.png'}], variants:[], price:[5000000,0], ratings:5},
-    { pictures:[{url:'/images/jewelry/bracelet_brown.png'}], variants:[], price:[5000000,0], ratings:5},
-    { pictures:[{url:'/images/jewelry/gold-silver_brown.png'}], variants:[], price:[5000000,0], ratings:5},
-    { pictures:[{url:'/images/jewelry/bracelet-small_brown.png'}], variants:[], price:[5000000,0], ratings:5}]
+    const products = [ { pictures:[{url:'/images/jewelry/kalung_brown.png'}],name:'Necklace', subName:'Necklace', variants:[], price:[5000000,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/anting_brown.png'}], name:'Earring', variants:[], price:[5000000,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/bross_brown.png'}],name:'Bross', variants:[], price:[5000000,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/cincin_brown.png'}],name:'Ring', variants:[], price:[5000000,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/diamond_brown.png'}],name:'Necklace', variants:[], price:[5000000,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/earing_brown.png'}],name:'Earring', variants:[], price:[5000000,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/brown2.png'}],name:'Bracelet', variants:[], price:[5000000,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/bracelet_brown.png'}],name:'Bracelet', variants:[], price:[5000000,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/gold-silver_brown.png'}],name:'Bracelet', variants:[], price:[5000000,0], ratings:5},
+    { pictures:[{url:'/images/jewelry/bracelet-small_brown.png'}],name:'Bracelet', variants:[], price:[5000000,0], ratings:5}]
     const gridClasses = {
         3: "cols-2 cols-sm-3",
         4: "cols-2 cols-sm-3 cols-md-4",

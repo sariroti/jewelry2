@@ -41,7 +41,7 @@ function ProductTwo( props ) {
     }
 
     return (
-        <div className={ `product text-left ${ adClass }` }>
+        <div className={ `product text-left overlay-zoom ${ adClass }` }>
             <figure className="product-media">
                 <ALink href={ `/product/default/${ product.slug }` }>
                     <LazyLoadImage
@@ -81,7 +81,7 @@ function ProductTwo( props ) {
                     }
                 </div>
 
-                <div className="product-action-vertical">
+                {/* <div className="product-action-vertical">
                     {
                         product.variants.length > 0 ?
                             <ALink href={ `/product/default/${ product.slug }` } className="btn-product-icon btn-cart" title="Go to product">
@@ -98,7 +98,7 @@ function ProductTwo( props ) {
 
                 <div className="product-action">
                     <ALink href="#" className="btn-product btn-quickview" title="Quick View" onClick={ showQuickviewHandler }>Quick View</ALink>
-                </div>
+                </div> */}
             </figure>
 
             <div className="product-details">
@@ -119,32 +119,23 @@ function ProductTwo( props ) {
                         </div> : ""
                 }
 
-                <h3 className="product-name">
-                    <ALink href={ `/product/default/${ product.slug }` }>{ product.name }</ALink>
+                <h3 className="product-name product-title-override">
+                    {[product.name]}
                 </h3>
+                <h4 className='product-name product-subtitle-override'>
+                    {[product.subName]}
+                </h4>
 
-                <div className="product-price color-white">
-                    {
-                        product.price[ 0 ] !== product.price[ 1 ] ?
-                            product.variants.length === 0 || ( product.variants.length > 0 && !product.variants[ 0 ].price ) ?
-                                <>
-                                    <ins className="new-price">IDR{ toDecimal( product.price[ 0 ] ) }</ins>
-                                    {/* <del className="old-price">IDR{ toDecimal( product.price[ 1 ] ) }</del> */}
-                                </>
-                                :
-                                < del className="new-price">IDR{ toDecimal( product.price[ 0 ] ) } – ${ toDecimal( product.price[ 1 ] ) }</del>
-                            : <ins className="new-price">IDR{ toDecimal( product.price[ 0 ] ) }</ins>
-                    }
-                </div>
+               
 
-                <div className="ratings-container">
+                {/* <div className="ratings-container">
                     <div className="ratings-full">
                         <span className="ratings" style={ { width: 20 * product.ratings + '%' } }></span>
                         <span className="tooltiptext tooltip-top">{ toDecimal( product.ratings ) }</span>
                     </div>
 
                     <ALink href={ `/product/default/${ product.slug }` } className="rating-reviews">( { product.reviews } reviews )</ALink>
-                </div>
+                </div> */}
             </div>
         </div>
     )

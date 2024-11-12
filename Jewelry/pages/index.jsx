@@ -20,6 +20,8 @@ import CtaSection from '~/components/partials/home/cta-section';
 import BrandSection from '~/components/partials/home/brand-section';
 import BlogSection from '~/components/partials/home/blog-section';
 import SmallCollection from '~/components/partials/product/small-collection';
+import ShopBannerWrapper from '~/components/partials/shop/shop-banner2-wrapper'
+
 
 function HomePage() {
     const { data, loading, error } = useQuery( GET_HOME_DATA, { variables: { productsCount: 7 } } );
@@ -28,7 +30,11 @@ function HomePage() {
     const latest = data && data.specialProducts.latest;
     const onSale = data && data.specialProducts.onSale;
     const posts = data && data.posts.data;
-
+    const categories = [{title:'Bross',subTitle:'', btnText:'Shop Now', imageUrl:'url(images/jewelry/bross_brown.png)'},
+        {title:'Earing',subTitle:'', btnText:'Shop Now', imageUrl:'url(images/jewelry/earing_brown.png)'},
+        {title:'Ring',subTitle:'', btnText:'Shop Now', imageUrl:'url(images/jewelry/cincin_brown.png)'},
+        {title:'Neklace',subTitle:'', btnText:'Shop Now', imageUrl:'url(images/jewelry/kalung_brown.png)'}
+    ];
     return (
         <div className="main home">
             <Helmet>
@@ -49,10 +55,12 @@ function HomePage() {
                 {/* <BestCollection products={ bestSelling } loading={ loading } /> */}
 
                 {/* <DealSection /> */}
+               
+                <ShopBannerWrapper categories={categories}/>
+               
 
-                <BannerSection />
-             
-{/* 
+
+{/*          
                 <FeaturedCollection products={ featured } loading={ loading } />
 
                 <CtaSection />

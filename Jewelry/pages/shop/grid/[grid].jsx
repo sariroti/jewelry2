@@ -22,7 +22,7 @@ function Shop () {
             <ShopBanner />
 
             <div className="page-content mb-10 pb-3" style={{backgroundColor:'#070707'}}>
-                <div className={ gridTypes[ grid ] < 6 ? 'container' : 'container-fluid' }>
+                <div className={ gridTypes[ grid ] < 6 ? 'container-fluid' : 'container-fluid' }>
                     <div className={ gridTypes[ grid ] < 5 ? 'row gutter-lg main-content-wrap' : 'main-content' }>
                         {
                             gridTypes[ grid ] < 5 ?

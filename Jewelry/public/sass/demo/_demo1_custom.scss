@@ -420,12 +420,20 @@
     letter-spacing: -3px;
 }
 
-.title-white-small{
-    font-size: 6em;
+.product-title-override {
+    font-size:2.5rem;
     color:#fff;
-    white-space: nowrap;
-    overflow: hidden;
-   
-    text-shadow: 0 10px 7px rgba(0,0,0,0.4),0 4px 40px #fff;
-    letter-spacing: -3px;
+}
+
+.product-subtitle-override {
+    font-size:1.5rem;
+    font-weight: 100;
+    color:#fff;
+}
+
+.btn-shop-focus {
+    color:#fff !important;
+}
+.btn-shop-focus:hover{
+ background-color:#26c !important;
 }
