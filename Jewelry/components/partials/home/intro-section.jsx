@@ -88,13 +88,18 @@ function IntroSection( props ) {
                 </div>
             </div> */}
 
-                <div className="banner banner-fixed video-banner intro-slide3" style={ { backgroundColor: "#dddee0" } }>
+                <div className="" >
                 <figure>
-                    <video src={ '/videos/1106(1).mp4' } width="1903" height="630" autoPlay={ true } muted loop></video>
+                    {/* <video src={ '/videos/1106(5).mp4' } width="1903" height="800" autoPlay={ true } muted loop></video> */}
+                    {/* <video src={ '/videos/4.mp4' } width="1903" height="800" autoPlay={ true } muted loop></video> */}
+                    {/* <video src={ '/videos/1112.mp4' } width="1903" height="630" autoPlay={ true } muted loop></video> */}
+                    <video src={ '/videos/1113.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>
+                   
                 </figure>
-
-                <div className="container">
-                    <div className="banner-content x-50 y-50 text-center">
+                
+           
+                {/* <div className="container">
+                    <div className="banner-content x-50 y-50 text-center"> */}
                         {/* <Reveal keyframes={ fadeIn } delay={ 200 } duration={ 700 }>
                             <h4 className="banner-subtitle text-white text-uppercase mb-3 ls-normal">Check out our</h4>
                         </Reveal>
@@ -110,9 +115,20 @@ function IntroSection( props ) {
                         <Reveal keyframes={ fadeInRightShorter } delay={ 1500 } duration={ 1000 }>
                             <ALink href="/shop" className="btn btn-dark btn-rounded mb-1">Shop Now<i className="d-icon-arrow-right"></i></ALink>
                         </Reveal> */}
-                    </div>
-                </div>
+                    {/* </div>
+                </div> */}
             </div>
+            {/* <div className="banner banner-fixed video-banner intro-slide3" >
+                <figure> */}
+                    {/* <video src={ '/videos/1106(5).mp4' } width="1903" height="630" autoPlay={ true } muted loop></video> */}
+                    {/* <video src={ '/videos/1113.mp4' } width="1903" height="630" autoPlay={ true } muted loop></video> */}
+                {/* </figure>
+            </div> */}
+            {/* <div className="banner banner-fixed video-banner intro-slide3" >
+                <figure>
+                    <video src={ '/videos/3.mp4' } width="1903" height="630" autoPlay={ true } muted loop></video>
+                </figure>
+            </div> */}
         </OwlCarousel >
     )
 }
