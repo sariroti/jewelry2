@@ -88,7 +88,7 @@ function IntroSection( props ) {
                 </div>
             </div> */}
 
-                <div className="" >
+                <div className="banner banner-fixed video-banner intro-slide3" >
                 <figure>
                     {/* <video src={ '/videos/1106(5).mp4' } width="1903" height="800" autoPlay={ true } muted loop></video> */}
                     {/* <video src={ '/videos/4.mp4' } width="1903" height="800" autoPlay={ true } muted loop></video> */}
