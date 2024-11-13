@@ -4,7 +4,7 @@ export default function ShopBanner(props) {
     const { subTitle = '', title = '', subTitle2='', btnText='',imageUrl='' } = props;
     return (
         <div className="shop-banner banner container col-sm-12 col-md-12 col-lg-12 mb-5"
-            style={{ backgroundImage:imageUrl, backgroundSize:'500px 500px', backgroundPosition:'right', height:'450px', display:'flex', width:'1200px',  alignItems:'center', backgroundColor:'rgb(53, 53, 48, 0.9)' }}>
+            style={{ backgroundImage:imageUrl, backgroundSize:'500px 500px', backgroundPosition:'right', height:'450px', display:'flex', width:'1200px',  alignItems:'center' }}>
             <div className="banner-content" style={{left:'18rem'}}>
                 <h4 className="banner-subtitle text-uppercase ls-m font-weight-bold">
                     {subTitle}</h4>
