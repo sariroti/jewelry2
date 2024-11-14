@@ -253,7 +253,7 @@
 /* Responsive */
 @include mq(1366px, max) {
     .intro-slider figure {
-        height: 45rem;
+        height: 100%;
     }
 
 }
@@ -286,7 +286,6 @@
     .video-banner {
         video {
             height: 100%;
-            min-height: 55rem;
         }
     }
 }

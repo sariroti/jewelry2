@@ -63,7 +63,7 @@ export default function Header( props ) {
             <div className="header-top">
                 <div className="container">
                     <div className="header-left">
-                        <p className="welcome-msg">Welcome to Jewelery</p>
+                        <p className="welcome-msg">ALEXANDER & FAM</p>
                     </div>
                     <div className="header-right">
                     <div className="dropdown">
