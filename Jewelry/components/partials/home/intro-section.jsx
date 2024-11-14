@@ -88,7 +88,7 @@ function IntroSection( props ) {
                 </div>
             </div> */}
 
-                <div className="banner banner-fixed video-banner intro-slide3" >
+                <div className="banner banner-fixed video-banner" >
                 <figure>
                     {/* <video src={ '/videos/1106(5).mp4' } width="1903" height="800" autoPlay={ true } muted loop></video> */}
                     {/* <video src={ '/videos/4.mp4' } width="1903" height="800" autoPlay={ true } muted loop></video> */}
@@ -117,12 +117,7 @@ function IntroSection( props ) {
                     {/* </div>
                 </div> */}
             </div>
-            <div className="" >
-                <figure>
-                    {/* <video src={ '/videos/1106(5).mp4' } width="1903" height="630" autoPlay={ true } muted loop></video> */}
-                    <video src={ '/videos/1113.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>
-                </figure>
-            </div>
+           
             {/* <div className="banner banner-fixed video-banner intro-slide3" >
                 <figure>
                     <video src={ '/videos/3.mp4' } width="1903" height="630" autoPlay={ true } muted loop></video>
