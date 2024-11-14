@@ -416,11 +416,13 @@
     // font-size: inherit;
     font-size: xx-large;
     font-weight: inherit;
-    // font-family: inherit;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family: "inherit";
+    // font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: -.0125em;
     line-height: 1.5;
     white-space: nowrap;
+    color: rgb(196, 193, 180);;
+    -webkit-text-stroke: 1px rgb(151, 136, 22); /* width and color */
 }
 
 // Header Search
