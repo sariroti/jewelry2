@@ -9,7 +9,7 @@ import OwlCarousel from '~/components/features/owl-carousel';
 import { introSlider } from '~/utils/data/carousel';
 import { fadeInUpShorter, fadeInRightShorter, fadeIn, fadeInUp, fadeInRight } from '~/utils/data/keyframes';
 
-function IntroSection1( props ) {
+function BerlianSection( props ) {
     return (
         <OwlCarousel adClass="owl-theme owl-dot-inner owl-dot-white intro-slider animation-slider" options={ introSlider }>
             {/* <div className="banner banner-fixed intro-slide1" style={ { backgroundColor: "#46b2e8" } }>
@@ -88,12 +88,12 @@ function IntroSection1( props ) {
                 </div>
             </div> */}
 
-                <div className="banner banner-fixed video-banner intro-slide3" >
+            <div className="banner banner-fixed video-banner" >
                 <figure>
-                    {/* <video src={ '/videos/1106(5).mp4' } width="1903" height="800" autoPlay={ true } muted loop></video> */}
+                    <video src={ '/videos/berlian desc_1.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>
                     {/* <video src={ '/videos/4.mp4' } width="1903" height="800" autoPlay={ true } muted loop></video> */}
                     {/* <video src={ '/videos/ring(3).mp4' } width="1903" height="630" autoPlay={ true } muted loop></video> */}
-                    <video src={ '/videos/1112.mp4' } width="1903" height="630" autoPlay={ true } muted loop></video>
+                    {/* <video src={ '/videos/1112.mp4' } width="1903" height="630" autoPlay={ true } muted loop></video> */}
                 </figure>
                 
            
@@ -116,7 +116,7 @@ function IntroSection1( props ) {
                         </Reveal> */}
                     {/* </div>
                 </div> */}
-            </div>
+              </div>
             {/* <div className="banner banner-fixed video-banner intro-slide3" >
                 <figure>
                     <video src={ '/videos/1106(5).mp4' } width="1903" height="630" autoPlay={ true } muted loop></video>
@@ -126,4 +126,4 @@ function IntroSection1( props ) {
     )
 }
 
-export default React.memo( IntroSection1 );
+export default React.memo( BerlianSection );

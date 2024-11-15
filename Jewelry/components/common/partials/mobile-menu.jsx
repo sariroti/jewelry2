@@ -64,13 +64,13 @@ function MobileMenu( props ) {
             <ALink className="mobile-menu-close" href="#" onClick={ hideMobileMenu }><i className="d-icon-times"></i></ALink>
 
             <div className="mobile-menu-container scrollable">
-                <form action="#" className="input-wrapper" onSubmit={ onSubmitSearchForm }>
+                {/* <form action="#" className="input-wrapper" onSubmit={ onSubmitSearchForm }>
                     <input type="text" className="form-control" name="search" autoComplete="off" value={ search } onChange={ onSearchChange }
                         placeholder="Search your keyword..." required />
                     <button className="btn btn-search" type="submit">
                         <i className="d-icon-search"></i>
                     </button>
-                </form>
+                </form> */}
 
                 <ul className="mobile-menu mmenu-anim">
                     <li>
@@ -116,46 +116,7 @@ function MobileMenu( props ) {
                         </Card>
                     </li>
 
-                    <li>
-                        <Card title="Products" type="mobile" url="/product/default/fashionable-leather-satchel">
-                            <ul>
-                                <li>
-                                    <Card title="Product Pages" type="mobile">
-                                        <ul>
-                                            {
-                                                mainMenu.product.pages.map( ( item, index ) => (
-                                                    <li key={ `product-${ item.title }` }>
-                                                        <ALink href={ '/' + item.url }>
-                                                            { item.title }
-                                                            { item.hot ? <span className="tip tip-hot">Hot</span> : "" }
-                                                        </ALink>
-                                                    </li>
-                                                ) )
-                                            }
-                                        </ul>
-                                    </Card>
-                                </li>
-
-                                <li>
-                                    <Card title="Product Layouts" type="mobile">
-                                        <ul>
-                                            {
-                                                mainMenu.product.layout.map( ( item, index ) => (
-                                                    <li key={ `product-${ item.title }` }>
-                                                        <ALink href={ '/' + item.url }>
-                                                            { item.title }
-                                                            { item.new ? <span className="tip tip-new">New</span> : "" }
-                                                        </ALink>
-                                                    </li>
-                                                ) )
-                                            }
-                                        </ul>
-                                    </Card>
-                                </li>
-                            </ul>
-                        </Card>
-                    </li>
-
+               
                     <li>
                         <Card title="Pages" type="mobile" url="/pages/about-us">
                             <ul>
@@ -206,7 +167,7 @@ function MobileMenu( props ) {
                         </Card>
                     </li>
 
-                    <li>
+                    {/* <li>
                         <Card title="elements" type="mobile" url="/elements">
                             <ul>
                                 {
@@ -220,9 +181,9 @@ function MobileMenu( props ) {
                                 }
                             </ul>
                         </Card>
-                    </li>
+                    </li> */}
 
-                    <li className="mb-4 border-no"><a href="https://d-themes.com/buynow/riodereact">Buy Riode!</a></li>
+                    {/* <li className="mb-4 border-no"><a href="https://d-themes.com/buynow/riodereact">Buy Riode!</a></li> */}
 
                     <li><ALink href={ '/pages/account' }>Login</ALink></li>
                     <li><ALink href={ '/pages/cart' }>My Cart</ALink></li>

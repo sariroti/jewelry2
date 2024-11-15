@@ -10,8 +10,8 @@ import { GET_HOME_DATA } from '../server/queries';
 // import Home Components
 import NewsletterModal from '~/components/features/modals/newsletter-modal';
 import IntroSection from '~/components/partials/home/intro-section';
-import IntroSection1 from '~/components/partials/home/intro-section1';
-import IntroSection2 from '~/components/partials/home/intro-section2';
+import BerlianSection from '~/components/partials/home/berlian-section';
+import LimitedSection from '~/components/partials/home/limited-section';
 
 import ServiceBox from '~/components/partials/home/service-section';
 import CategorySection from '~/components/partials/home/category-section';
@@ -47,13 +47,14 @@ function HomePage() {
 
             <h1 className="d-none">Jewelery Template - Home</h1>
 
+            {/* <div className="page-content" style= {{ backgroundColor:'black'}} > */}
             <div className="page-content" style= {{ backgroundColor:'black'}} >
                 <div className="intro-section">
                     <IntroSection />
-                    {/* <IntroSection1 /> */}
-                    <IntroSection2 />
+                    <BerlianSection />
+                    {/* <LimitedSection /> */}
                     
-                    <ServiceBox />
+                    {/* <ServiceBox /> */}
                 </div>
                 <CategorySection />
 
