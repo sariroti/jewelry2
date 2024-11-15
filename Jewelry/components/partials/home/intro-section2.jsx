@@ -88,9 +88,9 @@ function IntroSection2( props ) {
                 </div>
             </div> */}
 
-                <div className="banner banner-fixed video-banner intro-slide3" >
+                <div className="banner banner-fixed video-banner" >
                 <figure>
-                    <video src={ '/videos/3.mp4' } width="1903" height="630" autoPlay={ true } muted loop style={{objectFit:'none'}}></video>
+                    <video src={ '/videos/3.mp4' } width="1903" height="630" autoPlay={ true } muted loop style={{objectFit:'cover'}}></video>
                 </figure>
                 
            
