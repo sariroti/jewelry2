@@ -52,11 +52,11 @@ function HomePage() {
                 <div className="intro-section">
                     <IntroSection />
                     <BerlianSection />
-                    {/* <LimitedSection /> */}
+                    <LimitedSection />
                     
                     {/* <ServiceBox /> */}
                 </div>
-                <CategorySection />
+              
 
                 {/* <BestCollection products={ bestSelling } loading={ loading } /> */}
 
