@@ -54,7 +54,7 @@ function HomePage() {
                     <BerlianSection />
                     <LimitedSection />
                     
-                    {/* <ServiceBox /> */}
+                    <ServiceBox />
                 </div>
               
 
@@ -62,8 +62,8 @@ function HomePage() {
 
                 {/* <DealSection /> */}
                
-                <ShopBannerWrapper categories={categories}/>
-               
+                {/* <ShopBannerWrapper categories={categories}/>
+                */}
 
 
 {/*          
