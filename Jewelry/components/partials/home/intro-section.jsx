@@ -12,87 +12,10 @@ import { fadeInUpShorter, fadeInRightShorter, fadeIn, fadeInUp, fadeInRight } fr
 function IntroSection( props ) {
     return (
         <OwlCarousel adClass="owl-theme owl-dot-inner owl-dot-white intro-slider animation-slider" options={ introSlider }>
-            {/* <div className="banner banner-fixed intro-slide1" style={ { backgroundColor: "#46b2e8" } }>
-                <figure>
-                    <LazyLoadImage
-                        src="./images/home/slides/slide1.jpg"
-                        alt="Intro Slider"
-                        effect="opacity"
-                        width="auto"
-                        height={ 630 }
-                    />
-                </figure>
-
-                <div className="container">
-                    <div className="banner-content y-50">
-                        <h4 className="banner-subtitle font-weight-bold ls-l d-flex align-items-center">
-                            <Reveal keyframes={ fadeInRightShorter } delay={ 200 } duration={ 1000 }>
-                                <span className="d-inline-block">Buy 2 Get</span>
-                            </Reveal>
-
-                            <Reveal keyframes={ fadeInRightShorter } delay={ 400 } duration={ 1000 }>
-                                <span className="d-inline-block label-star bg-white text-primary">1 Free</span>
-                            </Reveal>
-                        </h4>
-
-                        <Reveal keyframes={ fadeInUpShorter } delay={ 1000 } duration={ 1200 }>
-                            <h2 className="banner-title font-weight-bold text-white lh-1 ls-md">Fashionable</h2>
-
-                            <h3 className="font-weight-normal lh-1 ls-l text-white">Collection</h3>
-
-                            <p className="text-white ls-s mb-7">Get Free Shipping on all orders over $99.00</p>
-                        </Reveal>
-
-                        <Reveal keyframes={ fadeInUpShorter } delay={ 1800 } duration={ 1000 }>
-                            <ALink href="/shop" className="btn btn-dark btn-rounded" >Shop Now<i className="d-icon-arrow-right"></i></ALink>
-                        </Reveal>
-                    </div>
-                </div>
-            </div> */}
-
-            {/* <div className="banner banner-fixed intro-slide2" style={ { backgroundColor: "#dddee0" } }>
-                <figure>
-                    <LazyLoadImage
-                        src="./images/home/slides/slide2.jpg"
-                        alt="Intro Slider"
-                        effect="opacity"
-                        width="auto"
-                        height={ 630 }
-                    />
-                </figure>
-
-                <div className="container">
-                    <div className="banner-content y-50 ml-auto text-right">
-                        <Reveal keyframes={ fadeInUp } delay={ 200 } duration={ 700 }>
-                            <h4 className="banner-subtitle ls-s mb-1">
-                                <span className="d-block text-uppercase mb-2">Coming soon</span>
-
-                                <strong className="font-weight-semi-bold ls-m">Riode Birthday</strong>
-                            </h4>
-                        </Reveal>
-
-                        <Reveal keyframes={ fadeInRight } delay={ 500 } duration={ 1200 }>
-                            <h2 className="banner-title mb-2 d-inline-block font-weight-bold text-primary">Sale</h2>
-                        </Reveal>
-
-                        <Reveal keyframes={ fadeInUp } delay={ 1200 } duration={ 1000 }>
-                            <p className="font-primary ls-s text-dark mb-4">
-                                Up to 70% off on all products <br />online &amp; Free Shipping over $90
-                            </p>
-                        </Reveal>
-
-                        <Reveal keyframes={ fadeInUp } delay={ 1400 } duration={ 1000 }>
-                            <ALink href="/shop" className="btn btn-dark btn-rounded">Shop Now<i className="d-icon-arrow-right"></i></ALink>
-                        </Reveal>
-                    </div>
-                </div>
-            </div> */}
-
-                <div className="banner banner-fixed video-banner" >
+                <div className="banner banner-fixed video-banner intro-slide3" >
                 <figure>
                     {/* <video src={ '/videos/berlian desc_1.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> */}
                     <video src={ '/videos/1113.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> 
-                    {/* <video src={ '/videos/limited(ring).mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>
                     {/* <video src={ '/videos/limited(anting).mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> */}
                     {/* <video src={ '/videos/limited(ring2).mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> */}
                 </figure>                
@@ -118,11 +41,11 @@ function IntroSection( props ) {
                 </div> */}
             </div>
            
-            {/* <div className="banner banner-fixed video-banner intro-slide3" >
+            <div className="banner banner-fixed video-banner intro-slide3" >
                 <figure>
-                    <video src={ '/videos/3.mp4' } width="1903" height="630" autoPlay={ true } muted loop></video>
+                     <video src={ '/videos/1116.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>
                 </figure>
-            </div> */}
+            </div>
         </OwlCarousel >
     )
 }
