@@ -59,8 +59,8 @@
 			),
             // Header Middle
 			middle: (
-				padding-top: 2.7rem,
-                padding-bottom: 2.7rem,
+				padding-top: 2.0rem,
+                padding-bottom: 2.0rem,
 				color: #222,
 				// background: #fff,
                 background: #070707,
@@ -268,6 +268,7 @@
 
 .header-left {
     margin-right: auto;
+    margin-left:20px;
     a {
         display: flex;
         align-items: left;
@@ -413,6 +414,7 @@
 .welcome-msg {
     margin: 0;
     padding: 1.1rem 0;
+    padding-left: 5.1rem;
     // font-size: inherit;
     font-size: xx-large;
     font-weight: inherit;
@@ -939,6 +941,7 @@
         .header-left {
             position: relative;
             overflow: hidden;
+            margin-left:-20px;
         }
     }
     .header-middle {
@@ -953,6 +956,10 @@
     .welcome-msg {
         transform: translateX(0);
         animation: 6s linear 2s 1 show_msg_first, 12s linear 8s infinite show_msg;
+    }
+    .mobile-menu-toggle {
+        display: block;
+        margin-left:-20px;
     }
 }
 @keyframes show_msg_first { 
