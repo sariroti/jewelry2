@@ -12,12 +12,12 @@ import { fadeInUpShorter, fadeInRightShorter, fadeIn, fadeInUp, fadeInRight } fr
 function LimitedSection( props ) {
     return (
         <>
-        <h2 className="title title-center mb-5 mt-5 title-white">Limited</h2>
+        <h2 className="title title-center mb-1 mt-5 title-white">Limited</h2>
         <OwlCarousel adClass="owl-theme owl-dot-inner owl-dot-white intro-slider animation-slider" options={ introSlider }>
             <div className="container">
                 <div className="banner banner-fixed video-banner" >
                     <figure>
-                            <video src={ '/videos/home slide/limited(ring).mp4' } width="1903" height="680" autoPlay={ true } muted loop></video>
+                            <video src={ '/videos/home slide/limited(ring).mp4' } width="1903" height="680" muted loop></video>
                     </figure>
                     
                 </div>
@@ -25,7 +25,23 @@ function LimitedSection( props ) {
             <div className="container">
                 <div className="banner banner-fixed video-banner" >
                     <figure>
-                            <video src={ '/videos/home slide/limited(anting1).mp4' } width="1903" height="680" autoPlay={ true } muted loop></video>
+                            <video src={ '/videos/home slide/limited(anting).mp4' } width="1903" height="680" muted loop></video>
+                    </figure>
+                    
+                </div>
+            </div>
+            <div className="container">
+                <div className="banner banner-fixed video-banner" >
+                    <figure>
+                            <video src={ '/videos/home slide/limited(bross).mp4' } width="1903" height="680" muted loop></video>
+                    </figure>
+                    
+                </div>
+            </div>
+            <div className="container">
+                <div className="banner banner-fixed video-banner" >
+                    <figure>
+                            <video src={ '/videos/home slide/limited(cincin1).mp4' } width="1903" height="680" muted loop></video>
                     </figure>
                     
                 </div>
