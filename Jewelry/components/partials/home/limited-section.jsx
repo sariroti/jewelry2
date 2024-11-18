@@ -17,7 +17,7 @@ function LimitedSection( props ) {
             <div className="container">
                 <div className="banner banner-fixed video-banner" >
                     <figure>
-                            <video src={ '/videos/home slide/limited(ring).mp4' } width="1903" height="680" autoPlay={true} muted loop></video>
+                            <video src={ '/videos/home slide/limited(ring).mp4' } width="1903" height="680" autoPlay={true} muted={true} loop></video>
                     </figure>
                     
                 </div>
@@ -25,7 +25,7 @@ function LimitedSection( props ) {
             <div className="container">
                 <div className="banner banner-fixed video-banner" >
                     <figure>
-                            <video src={ '/videos/home slide/limited(anting).mp4' } width="1903" height="680" autoPlay={true} muted loop></video>
+                            <video src={ '/videos/home slide/limited(anting).mp4' } width="1903" height="680" autoPlay={true} muted={true} loop></video>
                     </figure>
                     
                 </div>
@@ -33,7 +33,7 @@ function LimitedSection( props ) {
             <div className="container">
                 <div className="banner banner-fixed video-banner" >
                     <figure>
-                            <video src={ '/videos/home slide/limited(bross).mp4' } width="1903" height="680" autoPlay={true} muted loop></video>
+                            <video src={ '/videos/home slide/limited(bross).mp4' } width="1903" height="680" autoPlay={true} muted={true} loop></video>
                     </figure>
                     
                 </div>
@@ -41,7 +41,7 @@ function LimitedSection( props ) {
             <div className="container">
                 <div className="banner banner-fixed video-banner" >
                     <figure>
-                            <video src={ '/videos/home slide/limited(cincin1).mp4' } width="1903" height="680" autoPlay={true} muted loop></video>
+                            <video src={ '/videos/home slide/limited(cincin1).mp4' } width="1903" height="680" autoPlay={true} muted={true} loop></video>
                     </figure>
                     
                 </div>
