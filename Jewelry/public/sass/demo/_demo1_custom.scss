@@ -443,3 +443,28 @@
 .shop-banner:hover{
     background-color:rgb(53, 53, 48);
 }
+
+.intro-banner {
+    .banner-subtitle {
+        font-size: 1.8em;
+        letter-spacing: 0;
+    }
+    .banner-title { 
+        font-size: 3em; 
+        font-weight: 800;
+    }
+    p {
+        font-size: 1.8em;
+        opacity: .8;
+    }
+    .banner-content { left: 8.33%; }
+    .btn {
+        margin-bottom: 6px;
+    }
+
+  
+}
+
+.category-media > img, .intro-banner > figure > img {
+    height:328px;
+}

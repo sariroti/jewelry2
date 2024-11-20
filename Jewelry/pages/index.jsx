@@ -14,7 +14,7 @@ import BerlianSection from '~/components/partials/home/berlian-section';
 import LimitedSection from '~/components/partials/home/limited-section';
 
 import ServiceBox from '~/components/partials/home/service-section';
-import CategorySection from '~/components/partials/home/category-section';
+import CategorySection from '~/components/partials/home/category-section-demo15';
 import BestCollection from '~/components/partials/home/best-collection';
 import DealSection from '~/components/partials/home/deal-section';
 import BannerSection from '~/components/partials/home/banner-section';
@@ -53,7 +53,7 @@ function HomePage() {
                     <IntroSection />
                     <BerlianSection />
                     <LimitedSection />
-                    
+                    <CategorySection />
                     <ServiceBox />
                 </div>
               
