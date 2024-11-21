@@ -11,12 +11,11 @@ import { fadeInUpShorter, fadeInRightShorter, fadeIn, fadeInUp, fadeInRight } fr
 
 function BerlianSection( props ) {
     return (
-        <OwlCarousel adClass="owl-theme owl-dot-inner owl-dot-white intro-slider animation-slider" options={ introSlider }>
+        <OwlCarousel adClass="owl-theme owl-dot-inner owl-dot-white intro-slider animation-slider">
            
             <div className="banner banner-fixed video-banner" >
                 <figure>
-                    <video src={ '/videos/berlian desc_1.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>
-                    {/* <video src={ '/videos/limited(anting).mp4' } width="1903" height="800" autoPlay={ true } muted loop></video> */}
+                    <video src={ '/videos/berlian desc_2.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>
                     {/* <video src={ '/videos/ring(3).mp4' } width="1903" height="630" autoPlay={ true } muted loop></video> */}
                     {/* <video src={ '/videos/1113.mp4' } width="1903" height="630" autoPlay={ true } muted loop></video> */}
                 </figure>

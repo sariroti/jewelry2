@@ -11,18 +11,18 @@ import { fadeInUpShorter, fadeInRightShorter, fadeIn, fadeInUp, fadeInRight } fr
 
 function IntroSection( props ) {
     return (
-        <OwlCarousel adClass="owl-theme owl-dot-inner owl-dot-white intro-slider animation-slider" options={ introSlider }>
+        <OwlCarousel adClass="owl-theme owl-dot-inner owl-dot-white intro-slider animation-slider">
                 <div className="banner banner-fixed video-banner intro-slide3" >
                 <figure>
-                    {/* <video src={ '/videos/berlian desc_1.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> */}
-                    <video src={ '/videos/1113.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> 
+                      <video src={ '/videos/First section.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> 
+                    {/* <video src={ '/videos/1113.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>  */}
                     {/* <video src={ '/videos/limited(anting).mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> */}
                     {/* <video src={ '/videos/limited(ring2).mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> */}
                 </figure>                
            
-                {/* <div className="container">
-                    <div className="banner-content x-50 y-50 text-center"> */}
-                        {/* <Reveal keyframes={ fadeIn } delay={ 200 } duration={ 700 }>
+                 <div className="container">
+                    <div className="banner-content x-50 y-50 text-center"> 
+                        <Reveal keyframes={ fadeIn } delay={ 200 } duration={ 700 }>
                             <h4 className="banner-subtitle text-white text-uppercase mb-3 ls-normal">Check out our</h4>
                         </Reveal>
 
@@ -36,16 +36,16 @@ function IntroSection( props ) {
 
                         <Reveal keyframes={ fadeInRightShorter } delay={ 1500 } duration={ 1000 }>
                             <ALink href="/shop" className="btn btn-dark btn-rounded mb-1">Shop Now<i className="d-icon-arrow-right"></i></ALink>
-                        </Reveal> */}
-                    {/* </div>
-                </div> */}
+                        </Reveal>
+                     </div>
+                </div> 
             </div>
            
-            <div className="banner banner-fixed video-banner intro-slide3" >
+            {/* <div className="banner banner-fixed video-banner intro-slide3" >
                 <figure>
                      <video src={ '/videos/1116.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>
                 </figure>
-            </div>
+            </div> */}
         </OwlCarousel >
     )
 }

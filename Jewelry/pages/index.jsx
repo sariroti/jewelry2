@@ -78,7 +78,7 @@ function HomePage() {
                 <SmallCollection featured={ featured } latest={ latest } bestSelling={ bestSelling } onSale={ onSale } loading={ loading } /> */}
             </div>
 
-            <NewsletterModal />
+            {/* <NewsletterModal /> */}
         </div>
     )
 }
