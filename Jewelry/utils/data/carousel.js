@@ -470,7 +470,7 @@ export function onCarouselResized(e){
     const currentVideoObject = videoObjectKeys[v];
   
     if(currentVideoObject != null && v != 'length'){
-      
+        console.log(currentVideoObject);
         $(currentVideoObject).attr('muted','');
     }
   })
