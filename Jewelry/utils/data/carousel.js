@@ -454,3 +454,24 @@ export const productSlider2 = {
         }
     }
 }
+
+export function onCarouselResized(e){
+  
+//   let lastChild = e.currentTarget?.children[0]?.lastElementChild?.children[4]?.children[0]?.lastChild?.lastChild?.firstElementChild;
+
+//   if(lastChild !== null && lastChild !== undefined){
+   
+//     lastChild.setAttribute('muted', '');
+//   }
+
+  const videoObjectKeys = $('video');
+ 
+  Object.keys(videoObjectKeys).forEach((v) => {
+    const currentVideoObject = videoObjectKeys[v];
+  
+    if(currentVideoObject != null && v != 'length'){
+      
+        $(currentVideoObject).attr('muted','');
+    }
+  })
+}

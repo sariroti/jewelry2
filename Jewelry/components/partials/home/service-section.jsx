@@ -3,14 +3,14 @@ import Reveal from "react-awesome-reveal";
 
 import OwlCarousel from '~/components/features/owl-carousel';
 
-import { serviceSlider } from '~/utils/data/carousel';
+import { serviceSlider, onCarouselResized } from '~/utils/data/carousel';
 import { fadeInRightShorter } from '~/utils/data/keyframes';
 
 function ServiceBox ( props ) {
     return (
         <div className="container mt-6">
             <div className="service-list">
-                <OwlCarousel adClass="owl-theme" options={ serviceSlider }>
+                <OwlCarousel adClass="owl-theme" options={ serviceSlider } events={{onResize:onCarouselResized}}>
                     <Reveal keyframes={ fadeInRightShorter } delay={ 300 } duration={ 1200 } triggerOnce>
                         <div className="icon-box icon-box-side icon-box1">
                             <i className="icon-box-icon d-icon-truck"></i>
