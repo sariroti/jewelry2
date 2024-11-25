@@ -13,7 +13,7 @@ function BerlianSection( props ) {
     return (
         <OwlCarousel adClass="owl-theme owl-dot-inner owl-dot-white intro-slider animation-slider" events={{onResize:onCarouselResized}}>
            
-            <div className="banner banner-fixed video-banner" >
+            <div className="banner banner-fixed video-banner intro-slide3" >
                 <figure>
                     <video src={ '/videos/berlian desc_2.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>
                     {/* <video src={ '/videos/ring(3).mp4' } width="1903" height="630" autoPlay={ true } muted loop></video> */}

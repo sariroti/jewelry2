@@ -11,6 +11,7 @@ import { GET_HOME_DATA } from '../server/queries';
 import NewsletterModal from '~/components/features/modals/newsletter-modal';
 import IntroSection from '~/components/partials/home/intro-section';
 import BerlianSection from '~/components/partials/home/berlian-section';
+ import BerlianSection1 from '~/components/partials/home/berlian-section1';
 import LimitedSection from '~/components/partials/home/limited-section';
 
 import ServiceBox from '~/components/partials/home/service-section';
@@ -52,6 +53,7 @@ function HomePage() {
                 <div className="intro-section">
                     <IntroSection />
                     <BerlianSection />
+                    <BerlianSection1 />
                     <LimitedSection />
                     <CategorySection />
                     <ServiceBox />
