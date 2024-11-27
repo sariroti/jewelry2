@@ -13,7 +13,7 @@ function CategorySection() {
                     style={ { backgroundColor: "#a6a6a6" } }>
                     <ALink href="/shop">
                         <figure className="category-media">
-                            <img src="/images/home/categories/category2.jpg" alt="banner" width="480" height="328" />
+                            <img src="/images/jewelry/Cat1.jpg" alt="banner" width="480" height="328" />
                         </figure>
                     </ALink>
                     <div className="category-content y-50">
@@ -31,7 +31,7 @@ function CategorySection() {
             <div className="col-lg-3 col-xs-6 order-lg-first">
                 <div className="intro-banner banner banner-fixed overlay-zoom" style={ { backgroundColor: "#3b3f42" } }>
                     <figure>
-                        <img src="./images/home/categories/category2.jpg" alt="banner" width="480" height="328" />
+                        <img src="/images/jewelry/Cat1.jpg" alt="banner" width="480" height="328" />
                     </figure>
                     <div className="banner-content y-50 text-left">
                         <Reveal keyframes={ fadeIn } triggerOnce>
@@ -50,7 +50,7 @@ function CategorySection() {
             <div className="col-lg-3 col-xs-6">
                 <div className="intro-banner banner banner-fixed overlay-zoom" style={ { backgroundColor: "#181b20" } }>
                     <figure>
-                        <img src="./images/home/categories/category2.jpg" alt="banner" width="480" height="328" />
+                        <img src="/images/jewelry/Cat1.jpg" alt="banner" width="480" height="328" />
                     </figure>
                     <div className="banner-content y-50 text-left">
                         <Reveal keyframes={ fadeIn } triggerOnce>
@@ -71,7 +71,7 @@ function CategorySection() {
                     style={ { backgroundColor: "#ceced0" } }>
                     <ALink href="/shop" >
                         <figure className="category-media">
-                            <img src="/images/home/categories/category2.jpg" alt="banner" width="480" height="328" />
+                            <img src="/images/jewelry/Cat1.jpg" alt="banner" width="480" height="328" />
                         </figure>
                     </ALink>
                     <div className="category-content y-50">
