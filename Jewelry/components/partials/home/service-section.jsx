@@ -12,7 +12,7 @@ function ServiceBox ( props ) {
             <div className="service-list">
                 <OwlCarousel adClass="owl-theme" options={ serviceSlider } events={{onResize:onCarouselResized}}>
                     <Reveal keyframes={ fadeInRightShorter } delay={ 300 } duration={ 1200 } triggerOnce>
-                        <div className="icon-box icon-box-side icon-box1 test">
+                        <div className="icon-box icon-box-side icon-box1">
                             <i className="icon-box-icon d-icon-truck"></i>
 
                             <div className="icon-box-content">
