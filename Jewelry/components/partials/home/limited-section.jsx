@@ -13,7 +13,9 @@ function LimitedSection( props ) {
  
     return (
         <>
-        <h2 className="title title-center mb-1 mt-2 title-white">Limited</h2>
+        <h2 className="title title-center mb-1 mt-2 title-white">Our Custome</h2>
+        {/* <h2 className="title title-simple text-center">New Arrivals</h2> */}
+
         <OwlCarousel adClass="owl-theme owl-dot-inner owl-dot-white intro-slider animation-slider" options={ introSlider } events={{onResize:onCarouselResized, onInitialize:onCarouselResized }}>
             <div className="container">
                 <div className="banner banner-fixed video-banner" >

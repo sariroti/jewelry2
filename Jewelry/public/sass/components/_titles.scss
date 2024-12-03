@@ -17,7 +17,8 @@
                 text-transform: capitalize,
                 font-size: 2.4rem,
                 font-weight: 700,
-                line-height: 1,
+                //line-height: 1,
+                line-height: 3,
                 letter-spacing: -.0125em,
                 color: #222,
                 desc: (
@@ -164,9 +165,11 @@
     &::before,
     &::after {
         background-color: #fff;
+        //background-color:goldenrod;
         opacity: .1;
     }
     color: #fff;
+ 
 
     > .title {
         &::before,
