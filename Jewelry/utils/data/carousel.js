@@ -352,7 +352,7 @@ export const introSlider = {
     dots: true,
     items: 1,
     autoplay: true,
-    autoplayTimeout:10000,
+    autoplayTimeout:15000 ,
     loop:true,
     video:true,
     lazyLoad:true,
