@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import Collapse from 'react-bootstrap/collapse';
+import Collapse from 'react-bootstrap/Collapse';
 
 import ALink from '~/components/features/custom-link';
 import Countdown from '~/components/features/countdown';
@@ -278,7 +278,7 @@ function DetailFour( props ) {
                     <label className="d-none">QTY:</label>
                     <div className="product-form-group mr-2">
                         <Quantity max={ product.data.stock } product={ product } onChangeQty={ changeQty } />
-                        <button className={ `btn-product btn-cart text-normal ls-normal font-weight-semi-bold ${ cartActive ? '' : 'disabled' }` } onClick={ addToCartHandler } onClick={ addToCartHandler }><i className='d-icon-bag'></i>Add to Cart</button>
+                        <button className={ `btn-product btn-cart text-normal ls-normal font-weight-semi-bold ${ cartActive ? '' : 'disabled' }` } onClick={ addToCartHandler }><i className='d-icon-bag'></i>Add to Cart</button>
                     </div>
                 </div>
 
