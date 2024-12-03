@@ -20,7 +20,7 @@ function IntroSection( props ) {
                     {/* <video src={ '/videos/limited(ring2).mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> */}
                 </figure>                
            
-                 <div className="container">
+                 {/* <div className="container">
                     <div className="banner-content x-50 y-50 text-center"> 
                         <Reveal keyframes={ fadeIn } delay={ 200 } duration={ 700 }>
                             <h4 className="banner-subtitle text-white text-uppercase mb-3 ls-normal">Check out our</h4>
@@ -38,7 +38,7 @@ function IntroSection( props ) {
                             <ALink href="/shop" className="btn btn-dark btn-rounded mb-1">Custome Now<i className="d-icon-arrow-right"></i></ALink>
                         </Reveal>
                      </div>
-                </div> 
+                </div>  */}
             </div>
            
             {/* <div className="banner banner-fixed video-banner intro-slide3" >
