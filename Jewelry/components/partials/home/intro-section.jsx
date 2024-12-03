@@ -6,7 +6,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ALink from '~/components/features/custom-link';
 import OwlCarousel from '~/components/features/owl-carousel';
 
-import { introSlider, onCarouselResized } from '~/utils/data/carousel';
+import { introSlider2, onCarouselResized, onInitialized } from '~/utils/data/carousel';
 import { fadeInUpShorter, fadeInRightShorter, fadeIn, fadeInUp, fadeInRight } from '~/utils/data/keyframes';
 
 function IntroSection( props ) {
@@ -14,7 +14,7 @@ function IntroSection( props ) {
         <OwlCarousel adClass="owl-theme owl-dot-inner owl-dot-white intro-slider animation-slider" events={{onResize:onCarouselResized}}>
                 <div className="banner banner-fixed video-banner intro-slide3" >
                 <figure>
-                      <video src={ '/videos/First section_1.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> 
+                      <video id="introSectionVideo1" src={ '/videos/First section_1.mp4' } width="1903" height="1080" autoPlay={true} muted loop></video> 
                     {/* <video src={ '/videos/1113.mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video>  */}
                     {/* <video src={ '/videos/limited(anting).mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> */}
                     {/* <video src={ '/videos/limited(ring2).mp4' } width="1903" height="1080" autoPlay={ true } muted loop></video> */}

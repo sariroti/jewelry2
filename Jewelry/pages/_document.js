@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
                     <Main />
 
                     <script src="./js/jquery.min.js"></script>
-
+                    <script src="./js/custom-video.js"></script>
                     <NextScript />
                 </body>
             </Html>
