@@ -26,6 +26,13 @@ $(document).ready(function(){
                 currentVideoObject.muted = true;
             }
         }
+        var introSectionVideo1 =  $('#introSectionVideo1')[0];
+
+        if(introSectionVideo1.paused){
+            
+            introSectionVideo1.muted = true;
+            introSectionVideo1.play();  
+        }
         });
     },500);
 });
