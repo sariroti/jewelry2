@@ -22,8 +22,7 @@ $(document).ready(function(){
             
               
             if(currentVideoObject.src && currentVideoObject.src.indexOf('videos/First%20section_1.mp4') < 0){
-                console.log(currentVideoObject.src);
-                console.log(currentVideoObject);
+              
                 currentVideoObject.muted = true;
             }
         }
