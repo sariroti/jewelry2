@@ -480,11 +480,11 @@ export function onCarouselResized(e){
 }
 
 export function onInitialized(e){
-    $(".owl-item.active video").each(function(index, value) {
-        if(index == 3){
-            console.log(value); 
+    // $(".owl-item.active video").each(function(index, value) {
+    //     if(index == 3){
+    //         console.log(value); 
            
-            this.play();
-        }
-      });
+    //         this.play();
+    //     }
+    //   });
 }
