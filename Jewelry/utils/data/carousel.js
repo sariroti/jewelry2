@@ -466,12 +466,25 @@ export function onCarouselResized(e){
 
   const videoObjectKeys = $('video');
  
-  Object.keys(videoObjectKeys).forEach((v) => {
+  Object.keys(videoObjectKeys).forEach((v, index) => {
     const currentVideoObject = videoObjectKeys[v];
-  
+ 
     if(currentVideoObject != null && v != 'length'){
-        console.log(currentVideoObject);
-        $(currentVideoObject).attr('muted','');
+        
+       
+            $(currentVideoObject).attr('muted','');
+       
+
     }
   })
+}
+
+export function onInitialized(e){
+    $(".owl-item.active video").each(function(index, value) {
+        if(index == 3){
+            console.log(value); 
+           
+            this.play();
+        }
+      });
 }
