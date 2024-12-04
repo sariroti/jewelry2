@@ -13,11 +13,11 @@ function Shop () {
 
     return (
         <main className="main">
-            <Helmet>
+            {/* <Helmet>
                 <title>Riode React eCommerce Template - Shop Page Grid { grid }</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Shop Page Grid { grid }</h1>
+            <h1 className="d-none">Riode React eCommerce Template - Shop Page Grid { grid }</h1> */}
 
             <ShopBanner />
 

@@ -69,9 +69,9 @@ export default function Header( props ) {
                     </div>
 
                     <div className="header-center">
-                        <ALink href="/" className="logo">
+                        {/* <ALink href="/" className="logo">
                             <img src='./images/logo.png' alt="logo" width="154" height="43" />
-                        </ALink>
+                        </ALink> */}
                     </div>
 
                     <div className="header-right">

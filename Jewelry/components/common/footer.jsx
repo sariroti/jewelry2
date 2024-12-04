@@ -7,9 +7,9 @@ export default function Footer () {
                 <div className="footer-top">
                     <div className="row align-items-center">
                         <div className="col-lg-3">
-                            <ALink href="/" className="logo-footer">
+                            {/* <ALink href="/" className="logo-footer">
                                 <img src="./images/logo-footer.png" alt="logo-footer" width="154" height="43" />
-                            </ALink>
+                            </ALink> */}
 
                         </div>
                         <div className="col-lg-9">
@@ -144,9 +144,9 @@ export default function Footer () {
                             <img src="./images/payment.png" alt="payment" width="159" height="29" />
                         </figure>
                     </div>
-                    <div className="footer-center">
+                    {/* <div className="footer-center">
                         <p className="copyright ls-normal">Riode eCommerce &copy; 2021. All Rights Reserved</p>
-                    </div>
+                    </div> */}
                     <div className="footer-right">
                         <div className="social-links">
                             <ALink href="#" className="social-link social-facebook fab fa-facebook-f"></ALink>

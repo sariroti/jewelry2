@@ -3,7 +3,7 @@ $(document).ready(function(){
     
     $(window).scroll(function (event) {
        
-        if(($('#introSectionVideo1')[0].muted)){
+        if($('#introSectionVideo1')[0] && $('#introSectionVideo1')[0].muted){
             
           
             $('#introSectionVideo1')[0].muted =false;
@@ -28,7 +28,7 @@ $(document).ready(function(){
         }
         var introSectionVideo1 =  $('#introSectionVideo1')[0];
 
-        if(introSectionVideo1.paused){
+        if(introSectionVideo1 && introSectionVideo1.paused && introSectionVideo1.muted){
             
             introSectionVideo1.muted = true;
             introSectionVideo1.play();  
