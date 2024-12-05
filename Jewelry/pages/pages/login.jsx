@@ -8,15 +8,15 @@ function Login() {
     return (
         <main className="main">
             <Helmet>
-                <title>Riode React eCommerce Template | Login</title>
+               
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Login</h1>
+           
             <nav className="breadcrumb-nav">
                 <div className="container">
                     <ul className="breadcrumb">
                         <li><ALink href="/"><i className="d-icon-home"></i></ALink></li>
-                        <li><ALink href="/shop">Riode Shop</ALink></li>
+                        <li><ALink href="/shop">Shop</ALink></li>
                         <li>My Account</li>
                     </ul>
                 </div>

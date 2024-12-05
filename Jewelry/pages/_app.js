@@ -38,10 +38,10 @@ const App = ({ Component, pageProps }) => {
                     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-                    <title>Riode - React eCommerce Template</title>
+                    <title>eCommerce</title>
 
                     <meta name="keywords" content="React Template" />
-                    <meta name="description" content="Riode - React eCommerce Template" />
+                    <meta name="description" content="eCommerce Template" />
                     <meta name="author" content="D-THEMES" />
                 </Helmet>
 

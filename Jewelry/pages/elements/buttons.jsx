@@ -20,10 +20,10 @@ function Buttons() {
     return (
         <>
             <Helmet>
-                <title>Riode React eCommerce Template | Buttons</title>
+                
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Buttons</h1>
+     
 
             <Breadcrumb subTitle="Elements" title="Element Buttons" parentUrl="/elements" />
 
@@ -102,7 +102,7 @@ function Buttons() {
                         <div className="mb-10 mt-4 pb-2">
                             <div className="title-wrapper">
                                 <h2 className="title title-center">Flat With Icon</h2>
-                                <p className="text-center">Add included Riode icons to default buttons, using any color.
+                                <p className="text-center">Add included icons to default buttons, using any color.
                                 </p>
                             </div>
 

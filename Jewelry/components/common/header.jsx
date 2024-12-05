@@ -112,9 +112,7 @@ export default function Header( props ) {
                         <MainMenu />
                     </div>
 
-                    <div className="header-right mr-0">
-                        <a href="https://d-themes.com/buynow/riodereact" className="font-weight-semi-bold">Buy Riode!</a>
-                    </div>
+                    
                 </div> */}
             {/* </div> */}
         </header >

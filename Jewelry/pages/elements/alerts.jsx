@@ -11,10 +11,10 @@ function Alert( props ) {
     return (
         <>
             <Helmet>
-                <title>Riode React eCommerce Template | Alert &amp; Notification</title>
+                
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Alert &amp; Notification</h1>
+           
 
             <BreadCrumb
                 subTitle="Elements"

@@ -47,10 +47,9 @@ function Classic () {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Riode React eCommerce Template | Blog Classic</title>
+             
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Blog Classic</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

@@ -40,10 +40,7 @@ export default function Footer () {
                                         <label>Phone: </label>
                                         <ALink href="tel:#">Toll Free (123) 456-7890</ALink>
                                     </li>
-                                    <li>
-                                        <label>Email: </label>
-                                        <ALink href="mailto:mail@riode.com">mail@riode.com</ALink>
-                                    </li>
+                                    
                                     <li>
                                         <label>Address: </label>
                                         <ALink href="#">123 Street Name, City, England</ALink>
@@ -144,9 +141,7 @@ export default function Footer () {
                             <img src="./images/payment.png" alt="payment" width="159" height="29" />
                         </figure>
                     </div>
-                    {/* <div className="footer-center">
-                        <p className="copyright ls-normal">Riode eCommerce &copy; 2021. All Rights Reserved</p>
-                    </div> */}
+                   
                     <div className="footer-right">
                         <div className="social-links">
                             <ALink href="#" className="social-link social-facebook fab fa-facebook-f"></ALink>

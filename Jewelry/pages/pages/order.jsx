@@ -11,10 +11,10 @@ function Order( props ) {
     return (
         <main className="main order">
             <Helmet>
-                <title>Riode React eCommerce Template | Order</title>
+                
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Order</h1>
+          
 
             <div className="page-content pt-7 pb-10 mb-10">
                 <div className="step-by pr-4 pl-4">
@@ -123,12 +123,12 @@ function Order( props ) {
                     <div className="address-info pb-8 mb-6">
                         <p className="address-detail pb-2">
                             John Doe<br />
-                        Riode Company<br />
+                         Company<br />
                         Steven street<br />
                         El Carjon, CA 92020<br />
                         123456789
                     </p>
-                        <p className="email">mail@riode.com</p>
+                        <p className="email">mail@test.com</p>
                     </div>
 
                     <ALink href="/shop" className="btn btn-icon-left btn-dark btn-back btn-rounded btn-md mb-4"><i className="d-icon-arrow-left"></i> Back to List</ALink>

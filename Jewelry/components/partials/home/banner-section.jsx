@@ -24,7 +24,7 @@ export default function BannerSection() {
                             <div className="banner-content y-50">
                                 <h4 className="banner-subtitle font-weight-bold ls-normal mb-0">Flash Sale</h4>
                                 <strong className="text-primary text-uppercase">Up To 50% Off</strong>
-                                <p className="banner-desc mb-0 ls-normal mt-4">From Riode Store</p>
+                               
                             </div>
                         </div>
                         <div className="newsletter-form text-center">

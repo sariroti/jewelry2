@@ -45,10 +45,10 @@ function ShopHorizontalFilter () {
     return (
         <main className="main">
             <Helmet>
-                <title>Riode React eCommerce Template - Shop Horizontal Filter</title>
+               
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Shop Horizontal Filter</h1>
+            
 
             <ShopBanner subTitle="Categories" title="Horizontal Filter" current="Horizontal Filter" />
 

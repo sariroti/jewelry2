@@ -41,11 +41,10 @@ function ProductRightSidebar() {
     return (
         <main className="main single-product">
             <Helmet>
-                <title>Riode React eCommerce Template | Product With Right Sidebar</title>
+              
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Product With Right Sidebar</h1>
-
+           
             {
                 product !== undefined ?
                     <div className={ `page-content mb-10 pb-6 ${ loaded ? '' : 'd-none' }` }>

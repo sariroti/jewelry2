@@ -9,10 +9,9 @@ function Shop() {
     return (
         <main className="main">
             {/* <Helmet>
-                <title>Riode React eCommerce Template - Shop Page</title>
+               
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Shop Page</h1> */}
 
             {/* <ShopBanner /> */}
 

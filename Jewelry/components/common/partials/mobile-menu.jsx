@@ -183,7 +183,7 @@ function MobileMenu( props ) {
                         </Card>
                     </li> */}
 
-                    {/* <li className="mb-4 border-no"><a href="https://d-themes.com/buynow/riodereact">Buy Riode!</a></li> */}
+                   
 
                     <li><ALink href={ '/pages/account' }>Login</ALink></li>
                     <li><ALink href={ '/pages/cart' }>My Cart</ALink></li>

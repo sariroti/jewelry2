@@ -67,7 +67,7 @@ function IntroSection2( props ) {
                             <h4 className="banner-subtitle ls-s mb-1">
                                 <span className="d-block text-uppercase mb-2">Coming soon</span>
 
-                                <strong className="font-weight-semi-bold ls-m">Riode Birthday</strong>
+                               
                             </h4>
                         </Reveal>
 

@@ -8,10 +8,10 @@ function Account() {
     return (
         <main className="main account">
             <Helmet>
-                <title>Riode React eCommerce Template | Account</title>
+                
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Account</h1>
+      
 
             <nav className="breadcrumb-nav">
                 <div className="container">
@@ -128,7 +128,7 @@ function Account() {
                                             <div className="card-body">
                                                 <h5 className="card-title text-uppercase">Billing Address</h5>
                                                 <p>John Doe<br />
-                                                    Riode Company<br />
+                                                     Company<br />
                                                         Steven street<br />
                                                             El Carjon, CA 92020
 												</p>

@@ -35,10 +35,10 @@ function AboutUs() {
     return (
         <main className="main about-us">
             <Helmet>
-                <title>Riode React eCommerce Template | About Us</title>
+                
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - About Us</h1>
+           
 
             <nav className="breadcrumb-nav">
                 <div className="container">
@@ -140,7 +140,7 @@ function AboutUs() {
                                     <p className="section-desc text-grey">
                                         Already millions of people are very satisfied by thi.<br />
                                         s page builder and the number is growing more and more. Technolog<br />
-                                        developing, requirements are increasing. Riode has brought.
+                                        developing, requirements are increasing. has brought.
                                     </p>
                                     <ALink href="#" className="btn btn-dark btn-link btn-underline ls-m">Visit Our Store<i className="d-icon-arrow-right"></i></ALink>
                                 </div>
@@ -159,7 +159,7 @@ function AboutUs() {
                                     <p className="section-desc text-grey">
                                         Already millions of people are very satisfied by thi.<br />
                                         s page builder and the number is growing more and more. Technolog<br />
-                                        developing, requirements are increasing. Riode has brought.
+                                        developing, requirements are increasing. has brought.
                                     </p>
                                     <ALink href="#" className="btn btn-dark btn-link btn-underline ls-m">Get Our Store<i className="d-icon-arrow-right"></i></ALink>
                                 </div>
